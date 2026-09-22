@@ -8,7 +8,7 @@
   "exports": "./src/index.js",
   "engines": { "node": ">=20" },
   "scripts": {
-    "test": "node --test \"testes/*.test.js\""
+    "test": "node --test testes/*.test.js"
   },
   "keywords": ["testes", "runner", "asserções"],
   "author": "condeDeveloper",
