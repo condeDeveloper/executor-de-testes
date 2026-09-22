@@ -1,0 +1,16 @@
+{
+  "name": "executor-de-testes",
+  "version": "1.0.0",
+  "description": "Executor de testes do zero: descoberta de arquivos, describe/it, asserções, hooks, isolamento por processo e relatório.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "testar": "src/cli.js" },
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"testes/*.test.js\""
+  },
+  "keywords": ["testes", "runner", "asserções"],
+  "author": "condeDeveloper",
+  "license": "MIT"
+}
